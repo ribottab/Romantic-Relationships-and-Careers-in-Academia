@@ -2,8 +2,8 @@ SHAREABLE ANALYSIS AND OUTPUTS
 
 DATA AVAILABILITY
 Data are available upon request from the corresponding authors:
-[blinded]
-
+Blandine Ribotta: blandine.ribotta@epfl.ch
+Bruno Lemaitre: bruno.lemaitre@epfl.ch
 Request the cleaned df_final.RData used for this manuscript, with the original
 data object, variable names, factor labels and coding. Data are not included.
 

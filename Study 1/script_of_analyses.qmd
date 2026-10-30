@@ -5842,9 +5842,9 @@ unlink(file.path(main_dir, c("Results_report.md", "Manuscript_report.md")))
 # Use a native Markdown table so Pandoc creates editable Word cells.
 export_manuscript_word <- function(version=c("blinded", "unblinded")) {
   version <- match.arg(version)
-  manuscript_authors <- c("[blinded]", "[blinded]", "[blinded]")
+  manuscript_authors <- c("Blandine Ribotta", "Peter Hilpert", "Bruno Lemaitre")
   blinded_ethics <- "Ethical approval was granted by the Ethics Committee of [anonymized university name] ([anonymized application number])."
-  unblinded_ethics <- "Ethical approval was granted by the EPFL Research Ethics Committee at [blinded]."
+  unblinded_ethics <- "Ethical approval was granted by the EPFL Research Ethics Committee at École polytechnique fédérale de Lausanne (HREC000607)."
   # Native pipe tables produce editable cells for both main tables.
   word_results <- build_results("pipe")
   word_md <- c("# Abstract","",manuscript_abstract,"",manuscript_abstract_metadata,"",
